@@ -4,8 +4,8 @@
 
 An Obsidian theme for typographic appreciators, with support for [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) by mgmeyers
 
-> Latest update 3.0.0
-> Breaking change - Most font weights removed to comply with developer guidelines to be fully local.
+> Latest update 3.2.0
+> Add Catppuccin theme
 
 -----
 
