@@ -529,6 +529,7 @@ body.type-scale-major-third {
   --font-title: "Playfair Display";
   --line-height-headings: 1.2;
   --heading-weight: 600;
+  --h1-font: var(--font-title);
 }
 
 h1,
@@ -1498,13 +1499,25 @@ body.coherence.theme-dark {
   --background-secondary: var(--color-base-05);
 }
 
+body.pentiment {
+  --background-primary: rgb(250,245,234);
+  --interactive-normal: rgb(254,234,184);
+  --text-normal: rgb(51,33,19);
+  --code-normal: rgb(254,234,184);
+  --text-accent: rgb(196,63,46);
+  --text-accent-hover: rgb(196,63,46);
+  --text-faint: rgb(184,174,162);
+  --link-weight: 500;
+  --code-background: rgb(84,76,74);
+}
+
 /*
 Catppuccin palettes (Latte, Frappé, Macchiato, Mocha)
 Source: https://catppuccin.com/palette/
 
 Catppuccin officially supplies 1 light theme, Latte, and 3 dark themes.
-   Latte is used as light mode for all the dark themes.
- */
+Latte is used as light mode for all the dark themes.
+*/
 body.catppuccin-frappe {
   /* Neutral tokens used by theme variants */
   --title-gradient-top: var(--cp-accent-1);
@@ -2101,6 +2114,9 @@ settings:
 				label: Catppuccin Mocha
 				value: catppuccin-mocha
 			-
+				label: Pentiment
+				value: pentiment
+			-
 				label: Coherence (dark only)
 				value: coherence
 			-
@@ -2232,6 +2248,10 @@ body:not(.ss-revert-highlight) .cm-s-obsidian span.cm-highlight,
 body:not(.ss-revert-highlight) .markdown-rendered mark,
 body:not(.ss-revert-highlight) .search-result-file-matched-text {
   background: linear-gradient(to bottom, var(--text-highlight-bg), var(--background-primary));
+}
+
+.is-mobile .prompt, .menu {
+  background-color: var(--menu-background) !important;
 }
 
 /*# sourceMappingURL=theme.css.map */
