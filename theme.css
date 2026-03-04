@@ -2250,7 +2250,7 @@ body:not(.ss-revert-highlight) .search-result-file-matched-text {
   background: linear-gradient(to bottom, var(--text-highlight-bg), var(--background-primary));
 }
 
-.is-mobile .prompt, .menu, .mobile-navbar {
+.is-mobile .prompt, .menu, .mobile-navbar, .suggestion-container {
   background-color: var(--menu-background) !important;
 }
 

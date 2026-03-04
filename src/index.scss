@@ -476,6 +476,6 @@ body:not(.ss-revert-highlight) {
 	}
 }
 
-.is-mobile .prompt, .menu, .mobile-navbar {
+.is-mobile .prompt, .menu, .mobile-navbar, .suggestion-container {
   background-color: var(--menu-background) !important;
 }
